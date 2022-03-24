@@ -1,0 +1,43 @@
+.success, .error{
+    color: white;
+    padding: 5px;
+    margin: 5px 0px 15px 0px;
+
+}
+.success{
+    background: green;
+}
+.error{
+    background: red;
+}
+.centralizar{
+    position: relative;
+    text-align: center;
+}
+body{
+    background-color: rgb(177, 200, 201);
+    text-align: center;
+}
+nav{
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+section{
+   padding-left: 540px;
+   margin: 10px;
+}
+footer{
+    text-align: left;
+    font-size: 14px;
+}
+@media(max-width: 480px){
+    section{
+        padding-left: 70px;
+    }
+}
+/* @media(min-width 480px) medida para telefono
+/* @media(min-width 768px) medida para tablet
+/* @media(min-width 1140px) medida para laptop o computadora
+/* @media(min-width 1440px) medida para laptop o computadora más larga
